@@ -1,0 +1,76 @@
+{
+  "fonts": [
+    {
+      "family": "archia",
+      "name": "Archia"
+    },
+    {
+      "family": "bergen-regular",
+      "name": "Bergen"
+    },
+    {
+      "family": "comic-cat",
+      "name": "COMIC-CAT"
+    },
+    {
+      "family": "dirtyline",
+      "name": "Dirtyline"
+    },
+    {
+      "family": "gazebo",
+      "name": "Gazebo"
+    },
+    {
+      "family": "glitten",
+      "name": "Glitten"
+    },
+    {
+      "family": "grandstander",
+      "name": "Grandstander"
+    },
+    {
+      "family": "heartbreaker",
+      "name": "Heartbreaker"
+    },
+    {
+      "family": "hollie",
+      "name": "Hollie"
+    },
+    {
+      "family": "lemonmilk",
+      "name": "LEMONMILK"
+    },
+    {
+      "family": "liquido",
+      "name": "Liquido"
+    },
+    {
+      "family": "neue-machina",
+      "name": "Neue Machina"
+    },
+    {
+      "family": "neue-metana",
+      "name": "Neue Metana"
+    },
+    {
+      "family": "open-sans",
+      "name": "Open Sans"
+    },
+    {
+      "family": "sofia-pro",
+      "name": "Sofia Pro"
+    },
+    {
+      "family": "space-mono",
+      "name": "Space Mono"
+    },
+    {
+      "family": "teenage-dreams",
+      "name": "Teenage Dreams"
+    },
+    {
+      "family": "zighead",
+      "name": "Zighead"
+    }
+  ]
+}

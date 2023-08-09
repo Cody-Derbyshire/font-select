@@ -1,0 +1,115 @@
+:root {
+  --light-col: #bebfc3;
+  --dark-col: #2e2a2b;
+}
+
+@font-face {
+  font-family: archia;
+  src: url(../assets/fonts/archia/Archia-Regular.otf);
+}
+@font-face {
+  font-family: bergen-regular;
+  src: url(../assets/fonts/bergen/BergenSans.ttf);
+}
+@font-face {
+  font-family: bergen-bold;
+  src: url(../assets/fonts/bergen/BergenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: comic-cat;
+  src: url(../assets/fonts/comic-cat/Comic_CAT.otf);
+}
+@font-face {
+  font-family: dirtyline;
+  src: url(../assets/fonts/dirtyline/Dirtyline.otf);
+}
+@font-face {
+  font-family: gazebo;
+  src: url(../assets/fonts/gazebo/Gazebo.otf);
+}
+@font-face {
+  font-family: glitten;
+  src: url(../assets/fonts/glitten/Glitten-Regular.otf);
+}
+@font-face {
+  font-family: grandstander;
+  src: url(../assets/fonts/grandstander/Grandstander-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: heartbreaker;
+  src: url(../assets/fonts/heartbreaker/HeartBreaker.otf);
+}
+@font-face {
+  font-family: hollie;
+  src: url(../assets/fonts/hollie/Hollie.ttf);
+}
+@font-face {
+  font-family: lemonmilk;
+  src: url(../assets/fonts/lemonmilk/LEMONMILK-Regular.otf);
+}
+@font-face {
+  font-family: lemonmilk-bold;
+  src: url(../assets/fonts/lemonmilk/LEMONMILK-Bold.otf);
+}
+@font-face {
+  font-family: liquido;
+  src: url(../assets/fonts/liquido/LIQUIDO-Fluid.otf);
+}
+@font-face {
+  font-family: neue-machina;
+  src: url(../assets/fonts/neue-machina/PPNeueMachina-InktrapRegular.otf);
+}
+@font-face {
+  font-family: neue-machina-bold;
+  src: url(../assets/fonts/neue-machina/PPNeueMachina-InktrapUltrabold.otf);
+}
+@font-face {
+  font-family: neue-metana;
+  src: url(../assets/fonts/neue-metana/NeueMetanaNext-SemiBold.otf);
+}
+@font-face {
+  font-family: open-sans;
+  src: url(../assets/fonts/open-sans/OpenSans.ttf);
+}
+@font-face {
+  font-family: sofia-pro;
+  src: url(../assets/fonts/sofia-pro/SofiaProRegular.ttf);
+}
+@font-face {
+  font-family: sofia-pro-bold;
+  src: url(../assets/fonts/sofia-pro/SofiaProBold.ttf);
+}
+@font-face {
+  font-family: space-mono;
+  src: url(../assets/fonts/space-mono/SpaceMono-Regular.ttf);
+}
+@font-face {
+  font-family: space-mono-bold;
+  src: url(../assets/fonts/space-mono/SpaceMono-Bold.ttf);
+}
+@font-face {
+  font-family: teenage-dreams;
+  src: url(../assets/fonts/teenage-dream/TeenageDreamsFont-Demo-Regular.ttf);
+}
+@font-face {
+  font-family: teenage-dreams-bold;
+  src: url(../assets/fonts/teenage-dream/TeenageDreamsFont-Demo-Bold.ttf);
+}
+@font-face {
+  font-family: zighead;
+  src: url(../assets/fonts/zighead/Zighead.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--light-col);
+  color: var(--dark-col);
+  filter: url('https://grainy-gradients.vercel.app/noise.svg');
+}
+
+.app {
+  height: 100vh;
+  overflow-y: hidden;
+}

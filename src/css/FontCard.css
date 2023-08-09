@@ -1,0 +1,32 @@
+.font-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.font-card:hover .a-large {
+  filter: invert(1);
+}
+.font-card:hover .name {
+  text-decoration: underline;
+}
+
+.a-large {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 5rem;
+  border: 0.1rem solid var(--dark-col);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.input-radio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 1rem;
+}
