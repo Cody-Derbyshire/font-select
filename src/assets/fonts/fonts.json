@@ -2,75 +2,93 @@
   "fonts": [
     {
       "family": "archia",
-      "name": "Archia"
+      "name": "Archia",
+      "weight": ["regular"]
     },
     {
-      "family": "bergen-regular",
-      "name": "Bergen"
+      "family": "bergen",
+      "name": "Bergen",
+      "weight": ["regular", "bold"]
     },
     {
       "family": "comic-cat",
-      "name": "COMIC-CAT"
+      "name": "COMIC-CAT",
+      "weight": ["regular"]
     },
     {
       "family": "dirtyline",
-      "name": "Dirtyline"
+      "name": "Dirtyline",
+      "weight": ["regular"]
     },
     {
       "family": "gazebo",
-      "name": "Gazebo"
+      "name": "Gazebo",
+      "weight": ["regular"]
     },
     {
       "family": "glitten",
-      "name": "Glitten"
+      "name": "Glitten",
+      "weight": ["regular"]
     },
     {
       "family": "grandstander",
-      "name": "Grandstander"
+      "name": "Grandstander",
+      "weight": ["regular"]
     },
     {
       "family": "heartbreaker",
-      "name": "Heartbreaker"
+      "name": "Heartbreaker",
+      "weight": ["regular"]
     },
     {
       "family": "hollie",
-      "name": "Hollie"
+      "name": "Hollie",
+      "weight": ["regular"]
     },
     {
       "family": "lemonmilk",
-      "name": "LEMONMILK"
+      "name": "LEMONMILK",
+      "weight": ["regular", "bold"]
     },
     {
       "family": "liquido",
-      "name": "Liquido"
+      "name": "Liquido",
+      "weight": ["regular"]
     },
     {
       "family": "neue-machina",
-      "name": "Neue Machina"
+      "name": "Neue Machina",
+      "weight": ["regular", "bold"]
     },
     {
       "family": "neue-metana",
-      "name": "Neue Metana"
+      "name": "Neue Metana",
+      "weight": ["regular"]
     },
     {
       "family": "open-sans",
-      "name": "Open Sans"
+      "name": "Open Sans",
+      "weight": ["regular"]
     },
     {
       "family": "sofia-pro",
-      "name": "Sofia Pro"
+      "name": "Sofia Pro",
+      "weight": ["regular", "bold"]
     },
     {
       "family": "space-mono",
-      "name": "Space Mono"
+      "name": "Space Mono",
+      "weight": ["regular", "bold"]
     },
     {
       "family": "teenage-dreams",
-      "name": "Teenage Dreams"
+      "name": "Teenage Dreams",
+      "weight": ["regular", "bold"]
     },
     {
       "family": "zighead",
-      "name": "Zighead"
+      "name": "Zighead",
+      "weight": ["regular"]
     }
   ]
 }

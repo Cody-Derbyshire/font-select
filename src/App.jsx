@@ -8,6 +8,7 @@ import { useState } from 'react';
 function App() {
   const [fonts] = useState(fontList);
   const [selectedFont, setSelectedFont] = useState('archia');
+  const [selectedWeight, setSelectedWeight] = useState('regular');
   const [typedText, setTypedText] = useState('Type Something!');
   return (
     <>
@@ -18,6 +19,8 @@ function App() {
           fonts={fonts}
           selectedFont={selectedFont}
           setSelectedFont={setSelectedFont}
+          selectedWeight={selectedWeight}
+          setSelectedWeight={setSelectedWeight}
           typedText={typedText}
           setTypedText={setTypedText}
         />

@@ -4,15 +4,9 @@
   text-align: center;
 }
 
-.font-card:hover .a-large {
-  filter: invert(1);
-}
-.font-card:hover .name {
-  text-decoration: underline;
-}
-
 .a-large {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   line-height: 5rem;
@@ -22,11 +16,25 @@
   width: 100%;
 }
 
-.input-radio {
-  display: flex;
-  justify-content: space-between;
-}
-
 .name {
   font-size: 1rem;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+input[type='radio'].radio-button {
+  display: none;
+}
+
+input[type='radio'].radio-button:checked + label {
+  filter: invert(1);
+  border-radius: 1rem;
+}
+input[type='radio'].radio-button:hover + label {
+  filter: invert(1);
+  border-radius: 1rem;
+}
+
+.weight-select {
+  border: none;
 }

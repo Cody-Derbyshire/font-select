@@ -1,7 +1,13 @@
 import '../css/FontList.css';
 import FontCard from './FontCard';
 
-function FontList({ fonts, selectedFont, setSelectedFont }) {
+function FontList({
+  fonts,
+  selectedFont,
+  setSelectedFont,
+  selectedWeight,
+  setSelectedWeight,
+}) {
   return (
     <>
       <div className='font-list'>
@@ -12,6 +18,8 @@ function FontList({ fonts, selectedFont, setSelectedFont }) {
               font={font}
               selectedFont={selectedFont}
               setSelectedFont={setSelectedFont}
+              selectedWeight={selectedWeight}
+              setSelectedWeight={setSelectedWeight}
             />
           );
         })}

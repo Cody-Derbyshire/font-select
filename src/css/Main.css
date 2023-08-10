@@ -25,9 +25,10 @@
   font-size: 4rem;
   text-align: center;
   margin-top: 2rem;
-  padding: 1rem 0;
+  padding: 1rem;
   overflow-wrap: break-word;
   height: fit-content;
   border-radius: 1rem;
   border: 0.1rem solid var(--dark-col);
+  line-height: 5rem;
 }

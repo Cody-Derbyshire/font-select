@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: archia;
+  font-family: archia-regular;
   src: url(../assets/fonts/archia/Archia-Regular.otf);
 }
 @font-face {
@@ -16,35 +16,35 @@
   src: url(../assets/fonts/bergen/BergenSans-SemiBold.ttf);
 }
 @font-face {
-  font-family: comic-cat;
+  font-family: comic-cat-regular;
   src: url(../assets/fonts/comic-cat/Comic_CAT.otf);
 }
 @font-face {
-  font-family: dirtyline;
+  font-family: dirtyline-regular;
   src: url(../assets/fonts/dirtyline/Dirtyline.otf);
 }
 @font-face {
-  font-family: gazebo;
+  font-family: gazebo-regular;
   src: url(../assets/fonts/gazebo/Gazebo.otf);
 }
 @font-face {
-  font-family: glitten;
+  font-family: glitten-regular;
   src: url(../assets/fonts/glitten/Glitten-Regular.otf);
 }
 @font-face {
-  font-family: grandstander;
+  font-family: grandstander-regular;
   src: url(../assets/fonts/grandstander/Grandstander-VariableFont_wght.ttf);
 }
 @font-face {
-  font-family: heartbreaker;
+  font-family: heartbreaker-regular;
   src: url(../assets/fonts/heartbreaker/HeartBreaker.otf);
 }
 @font-face {
-  font-family: hollie;
+  font-family: hollie-regular;
   src: url(../assets/fonts/hollie/Hollie.ttf);
 }
 @font-face {
-  font-family: lemonmilk;
+  font-family: lemonmilk-regular;
   src: url(../assets/fonts/lemonmilk/LEMONMILK-Regular.otf);
 }
 @font-face {
@@ -52,11 +52,11 @@
   src: url(../assets/fonts/lemonmilk/LEMONMILK-Bold.otf);
 }
 @font-face {
-  font-family: liquido;
+  font-family: liquido-regular;
   src: url(../assets/fonts/liquido/LIQUIDO-Fluid.otf);
 }
 @font-face {
-  font-family: neue-machina;
+  font-family: neue-machina-regular;
   src: url(../assets/fonts/neue-machina/PPNeueMachina-InktrapRegular.otf);
 }
 @font-face {
@@ -64,15 +64,15 @@
   src: url(../assets/fonts/neue-machina/PPNeueMachina-InktrapUltrabold.otf);
 }
 @font-face {
-  font-family: neue-metana;
+  font-family: neue-metana-regular;
   src: url(../assets/fonts/neue-metana/NeueMetanaNext-SemiBold.otf);
 }
 @font-face {
-  font-family: open-sans;
+  font-family: open-sans-regular;
   src: url(../assets/fonts/open-sans/OpenSans.ttf);
 }
 @font-face {
-  font-family: sofia-pro;
+  font-family: sofia-pro-regular;
   src: url(../assets/fonts/sofia-pro/SofiaProRegular.ttf);
 }
 @font-face {
@@ -80,7 +80,7 @@
   src: url(../assets/fonts/sofia-pro/SofiaProBold.ttf);
 }
 @font-face {
-  font-family: space-mono;
+  font-family: space-mono-regular;
   src: url(../assets/fonts/space-mono/SpaceMono-Regular.ttf);
 }
 @font-face {
@@ -88,7 +88,7 @@
   src: url(../assets/fonts/space-mono/SpaceMono-Bold.ttf);
 }
 @font-face {
-  font-family: teenage-dreams;
+  font-family: teenage-dreams-regular;
   src: url(../assets/fonts/teenage-dream/TeenageDreamsFont-Demo-Regular.ttf);
 }
 @font-face {
@@ -96,7 +96,7 @@
   src: url(../assets/fonts/teenage-dream/TeenageDreamsFont-Demo-Bold.ttf);
 }
 @font-face {
-  font-family: zighead;
+  font-family: zighead-regular;
   src: url(../assets/fonts/zighead/Zighead.otf);
 }
 

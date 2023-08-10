@@ -5,6 +5,8 @@ const Main = ({
   fonts,
   selectedFont,
   setSelectedFont,
+  selectedWeight,
+  setSelectedWeight,
   typedText,
   setTypedText,
 }) => {
@@ -26,10 +28,16 @@ const Main = ({
           fonts={fonts}
           selectedFont={selectedFont}
           setSelectedFont={setSelectedFont}
+          selectedWeight={selectedWeight}
+          setSelectedWeight={setSelectedWeight}
         />
-        <h1 className='typed-text' style={{ fontFamily: `${selectedFont}` }}>
+        <h1
+          className='typed-text'
+          style={{ fontFamily: `${selectedFont}-${selectedWeight}` }}
+        >
           {typedText}
         </h1>
+        <p>{`${selectedFont}-${selectedWeight}`}</p>
       </div>
     </>
   );
