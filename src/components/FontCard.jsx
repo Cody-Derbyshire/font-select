@@ -11,9 +11,15 @@ function FontCard({
 
   const handleSelectFont = (e) => {
     setSelectedFont(e.target.value);
+    if (!weight[1]) {
+      setSelectedWeight('regular');
+    }
   };
   const handleSelectWeight = (e) => {
     setSelectedWeight(e.target.value);
+    if (!weight[1]) {
+      setSelectedWeight('regular');
+    }
   };
 
   const Options = () => {
