@@ -1,7 +1,9 @@
 .font-card {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
   text-align: center;
+  justify-content: space-between;
 }
 
 .a-large {
@@ -11,7 +13,7 @@
   justify-content: center;
   line-height: 5rem;
   border: 0.1rem solid var(--dark-col);
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   padding: 0.5rem;
   width: 100%;
 }
@@ -35,6 +37,8 @@ input[type='radio'].radio-button:hover + label {
   border-radius: 1rem;
 }
 
-.weight-select {
-  border: none;
+@media screen and (max-width: 25rem) {
+  .font-card {
+    gap: 0;
+  }
 }

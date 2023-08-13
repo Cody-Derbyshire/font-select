@@ -111,5 +111,7 @@
 
 .app {
   height: 100vh;
-  overflow-y: hidden;
+  overflow: hidden;
+  /* max-width: 50rem; */
+  margin: 0 auto;
 }

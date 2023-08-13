@@ -1,4 +1,11 @@
 .header {
   border-bottom: 0.1rem solid var(--dark-col);
   padding: 0 1rem;
+  background-color: var(--dark-col);
+  color: var(--light-col);
+}
+
+.header h1 {
+  background-color: var(--dark-col);
+  color: var(--light-col);
 }

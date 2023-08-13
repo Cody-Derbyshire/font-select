@@ -1,8 +1,9 @@
 import '../css/Main.css';
+
 import FontList from './FontList';
+import { useFonts } from './FontContext';
 
 const Main = ({
-  fonts,
   selectedFont,
   setSelectedFont,
   selectedWeight,
@@ -10,8 +11,17 @@ const Main = ({
   typedText,
   setTypedText,
 }) => {
+  const fonts = useFonts();
   const onType = (e) => {
     setTypedText(e.target.value);
+  };
+
+  const selectedFontData = fonts.fonts.find(
+    (font) => font.family === selectedFont
+  );
+
+  const handleWeightChange = (e) => {
+    setSelectedWeight(e.target.value);
   };
 
   return (
@@ -22,8 +32,9 @@ const Main = ({
           type='text'
           value={typedText}
           onChange={onType}
-          defaultValue={'Type Something!'}
+          maxLength={37}
         />
+
         <FontList
           fonts={fonts}
           selectedFont={selectedFont}
@@ -31,13 +42,33 @@ const Main = ({
           selectedWeight={selectedWeight}
           setSelectedWeight={setSelectedWeight}
         />
-        <h1
-          className='typed-text'
-          style={{ fontFamily: `${selectedFont}-${selectedWeight}` }}
-        >
-          {typedText}
-        </h1>
-        <p>{`${selectedFont}-${selectedWeight}`}</p>
+        <div>
+          <div className='selection'>
+            <p className='selected-font-name'>
+              {selectedFontData ? selectedFontData.name : 'None'}
+            </p>
+
+            {selectedFontData && selectedFontData.weight[1] && (
+              <select
+                className='weight-select'
+                value={selectedWeight}
+                onChange={handleWeightChange}
+              >
+                {selectedFontData.weight.map((weight, index) => (
+                  <option key={index} value={weight}>
+                    {weight}
+                  </option>
+                ))}
+              </select>
+            )}
+          </div>
+          <h1
+            className='typed-text'
+            style={{ fontFamily: `${selectedFont}-${selectedWeight}` }}
+          >
+            {typedText}
+          </h1>
+        </div>
       </div>
     </>
   );

@@ -11,28 +11,7 @@ function FontCard({
 
   const handleSelectFont = (e) => {
     setSelectedFont(e.target.value);
-    if (!weight[1]) {
-      setSelectedWeight('regular');
-    }
-  };
-  const handleSelectWeight = (e) => {
-    setSelectedWeight(e.target.value);
-    if (!weight[1]) {
-      setSelectedWeight('regular');
-    }
-  };
-
-  const Options = () => {
-    if (!weight[1]) {
-      return <option value='regular'>Regular</option>;
-    } else {
-      return (
-        <>
-          <option value='regular'>Regular</option>
-          <option value='bold'>Bold</option>
-        </>
-      );
-    }
+    setSelectedWeight('regular');
   };
 
   return (
@@ -49,20 +28,17 @@ function FontCard({
         />
         <label className='radio-label' htmlFor={family}>
           <div className='a-large'>
-            <h1 style={{ fontFamily: `${family}-${weight}`, fontSize: '5rem' }}>
+            <h1
+              style={{
+                fontFamily: `${family}-${weight}`,
+                fontSize: '5rem',
+              }}
+            >
               Aa
             </h1>
-            <select
-              className='weight-select'
-              name='weight-select'
-              id='weight-select'
-              value={selectedWeight}
-              onChange={handleSelectWeight}
-            >
-              <Options />
-            </select>
           </div>
         </label>
+
         <h2 className='name'>{name}</h2>
       </div>
     </>

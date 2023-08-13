@@ -1,13 +1,14 @@
 import '../css/FontList.css';
 import FontCard from './FontCard';
+import { useFonts } from './FontContext';
 
 function FontList({
-  fonts,
   selectedFont,
   setSelectedFont,
   selectedWeight,
   setSelectedWeight,
 }) {
+  const fonts = useFonts();
   return (
     <>
       <div className='font-list'>
